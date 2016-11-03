@@ -148,3 +148,23 @@
     line-height: 30px;
 }
 
+.cebian a{
+    color: white;
+}
+.cebian a:hover{
+    color: gold;
+
+}
+.cebian{
+    background-color:#35b558;
+    position: fixed;
+    height: auto;
+    width: 80px;
+    padding:10px;
+    z-index: 1000;
+    text-align:center;
+    bottom: 150px;
+    right: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
