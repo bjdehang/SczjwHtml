@@ -37,9 +37,10 @@
 }
 .floatitem p {
     padding: 20px;
-    font-size:16px;
+    font-size:14px;
     color: white;
-    font-weight: 200
+    font-weight: 200;
+    line-height: 30px;
 }
 
 .floatitem h4{
