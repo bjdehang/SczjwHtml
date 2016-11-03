@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p id="p1">Hello World!</p>
+<p id="p2">Hello World!</p>
+
+<a href="#" id="btn" onclick="document.getElementById('p1').style.visibility='hidden'">出现</a>
+<a href="#" id="btn" onclick="document.getElementById('p1').style.visibility='visible'">消失</a>
+
+<p>以上段落通过脚本修改。</p>
+</body>
+<script>
+    change: function (){
+        document.getElementById("p2").style.color="blue";
+        document.getElementById("p2").style.fontFamily="Arial";
+        document.getElementById("p2").style.fontSize="larger";
+    }
+</script>
+</html>
